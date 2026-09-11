@@ -127,13 +127,34 @@ input[type="password"]:user-invalid {
     width: 800px;
 }
 
+button {
+    margin: 40px;
+    padding: 15px 40px;
+    background-color: #596D48;
+    color: white;
+    font-family: Roboto;
+    box-shadow: #596D48 3px 3px 3px 0;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.bottom-section p {
+    font-family: sans-serif;
+    padding-left: 40px;
+    font-size: 14px;
+}
+
+a {
+    color: #596D48;
+    text-decoration: none;
+}
+
 footer {
     background-color: red;
     color: white;
     text-align: center;
     padding: 20px;
 }
-
 
 .logo-text {
     color: red;
