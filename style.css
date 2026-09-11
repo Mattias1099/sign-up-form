@@ -50,7 +50,7 @@
 
 .header-section {
     font-family: Impact;
-    font-weight: 600;
+    font-weight: 300;
     margin: 225px 0 0 0;
     width: inherit;
     font-size: 1.5rem;
@@ -82,7 +82,7 @@ form {
 .form-section > p {
     font-family: Impact;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 300;
     padding: 0 0 25px 40px;
 }
 
