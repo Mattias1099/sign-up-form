@@ -52,7 +52,7 @@ body {
 .header-section {
     font-family: sans-serif;
     font-weight: 600;
-    margin: 150px 0 0 0;
+    margin: 225px 0 0 0;
     width: inherit;
     font-size: 1.5rem;
     padding-left: 40px;
@@ -127,9 +127,9 @@ input[type="password"]:user-invalid {
     position: absolute;
     width: 100%;
     background: black;
-    opacity: 0.6;
     color: white;
-    top: 500px;
+    top: 307px;
+    opacity: 0.6;
     text-align: center;
     font-size: 1.2rem;
     font-family: roboto;
@@ -138,6 +138,7 @@ input[type="password"]:user-invalid {
     align-items: center;
     justify-content: center;
 }
+
 
 .odin-image {
     display: flex;
@@ -154,6 +155,15 @@ input[type="password"]:user-invalid {
 
 .odin-img {
     width: 100px;
+}
+
+.pic-credit-text {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    opacity: 0.8;
 }
 
 button {
@@ -183,22 +193,4 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
-}
-
-.logo-text {
-    color: red;
-    font-family: Norse;
-}
-
-.header-text {
-    font-family: sans-serif;
-    font-weight: 600;
-}
-
-.form-text {
-    font-family: Roboto;
-}
-
-.odin-img {
-    background-color: black;
 }
