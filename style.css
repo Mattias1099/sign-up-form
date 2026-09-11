@@ -13,6 +13,10 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+}
+
 .main {
     height: 100vh;
     display: flex;
@@ -80,7 +84,7 @@ form {
 .form-field input {
     width: 250px;
     height: 25px;
-    font-size: 15px;
+    font-size: 1rem;
     border: 1px #E5E7EB solid;
     border-radius: 3px;
     padding-left: 10px;
@@ -165,13 +169,13 @@ button {
     color: white;
     box-shadow: #596D48 3px 3px 3px 0;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 1rem;
     cursor: pointer;
 }
 
 .bottom-section p {
     padding-left: 40px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 a {
