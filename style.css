@@ -16,6 +16,20 @@
     font-display: swap;
 }
 
+.main {
+    height: 100vh;
+}
+
+.background-div {
+    width: 450px;
+    height: 800px;
+    overflow: hidden;
+}
+
+.background-img {
+    width: 600px;
+}
+
 
 .logo-text {
     color: red;
