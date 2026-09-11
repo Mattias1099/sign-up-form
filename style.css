@@ -25,6 +25,7 @@
 body {
     height: 100vh;
     width: 100vw; /* might not be necessary*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .main {
@@ -36,8 +37,8 @@ body {
 .right-section {
     display: flex;
     flex-direction: column;
-    width: 800px;
-    min-width: 800px;
+    width: 750px;
+    min-width: 750px;
     flex: 1 1 auto;
 }
 
@@ -45,17 +46,19 @@ body {
     display: flex;
     width: 450px;
     min-width: 0px;
-    flex: 1 1 auto;
+    /* There is probably better way to do it. 
+    I want the right-section to start growing only when the left-section has reached it's max-width*/
+    flex: 100000 1 auto;
     max-width: 700px;
 }
 
 .header-section {
-    font-family: sans-serif;
+    font-family: Impact;
     font-weight: 600;
     margin: 225px 0 0 0;
     width: inherit;
     font-size: 1.5rem;
-    padding-left: 40px;
+    padding: 0 40px 0 40px;
 
 }
 
@@ -81,7 +84,7 @@ form {
 }
 
 .form-section > p {
-    font-family: sans-serif;
+    font-family: Impact;
     font-size: 1.5rem;
     font-weight: 600;
     padding: 0 0 25px 40px;
@@ -103,7 +106,7 @@ form {
 .form-field {
     width: 325px;
     padding-bottom: 20px;
-    font-family: Roboto;
+    font-family: Impact;
 }
 
 input[type="password"]:user-invalid {
@@ -123,13 +126,11 @@ input[type="password"]:user-invalid {
     position: relative;
 }
 
-.odin-div {
+.odin-logo-div {
     position: absolute;
     width: 100%;
-    background: black;
     color: white;
     top: 307px;
-    opacity: 0.6;
     text-align: center;
     font-size: 1.2rem;
     font-family: roboto;
@@ -137,10 +138,20 @@ input[type="password"]:user-invalid {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
+}
+
+.odin-logo-bg {
+    position: absolute;
+    width: 100%;
+    top: 307px;
+    height: 150px;
+    background-color: black;
+    opacity: 0.4;
 }
 
 
-.odin-image {
+.odin-logo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -186,11 +197,4 @@ button {
 a {
     color: #596D48;
     text-decoration: none;
-}
-
-footer {
-    background-color: red;
-    color: white;
-    text-align: center;
-    padding: 20px;
 }
