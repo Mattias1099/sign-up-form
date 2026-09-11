@@ -31,15 +31,15 @@ body {
     display: flex;
     border: 1px solid black;
     flex-grow: 1;
+    background-color: rgb(242, 243, 241);
 }
 
 .right-section {
     display: flex;
     flex-direction: column;
-    width: 600px;
-    min-width: 600px;
+    width: 800px;
+    min-width: 800px;
     flex: 1 1 auto;
-    padding-left: 40px;
 }
 
 .left-section {
@@ -56,11 +56,60 @@ body {
     margin: 150px 0 0 0;
     width: inherit;
     font-size: 1.5rem;
+    padding-left: 40px;
 
 }
 
 .header-section > p + p {
     margin: 40px 0 80px 0;
+}
+
+.form-section {
+    padding: 40px 0 40px 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px 0;
+}
+
+form {
+    width: 800px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.form-section > p {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0 0 40px 40px;
+}
+
+.form-field label {
+    display: block;
+}
+
+.form-field input {
+    width: 250px;
+    border-color: #E5E7EB;
+    border-radius: 3px;
+}
+
+.form-field {
+    width: 300px;
+    padding-bottom: 20px;
+    font-family: Roboto;
+}
+
+input[type="password"]:user-invalid {
+    border-color: red;
+}
+
+.form-field input:focus {
+    border-color: blue;
+    outline: none;
 }
 
 .background-div {

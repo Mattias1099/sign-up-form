@@ -17,7 +17,7 @@
             <div class="header-section">
                 <p>This is not a real online service! You know you need something 
                     like this in your life to help you realize your deepest dreams.
-                    Sign up <i>now</i> to get started.
+                    <br>Sign up <i>now</i> to get started.
                 </p>
                 <p>
                     You <i>know</i> you want to.
@@ -25,21 +25,33 @@
             </div>
             <div class="form-section">
                 <p>Let's do this!</p>
-            </div>
-            <form id="form" action="#" method="post">
-                <label for="first_name">FIRST NAME</label>
-                <input type="text" id="first_name" name="first_name">
-                <label for="last_name">LAST NAME</label>
-                <input type="text" id="last_name" name="last_name">
-                <label for="email">EMAIL</label>
-                <input type="email" id="email" name="user_email">
-                <label for="phone_number">PHONE NUMBER</label>
-                <input type="tel" id="phone_number" name="user_phone_number">
-                <label for="password">PASSWORD</label>
-                <input type="password" id="password" name="password">
-                <label for="confirm_password">CONFIRM PASSWORD</label>
-                <input type="password" id="password" name="confirm_password">
-            </form>
+                <form id="form" action="#" method="post">
+                    <div class="form-field">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" id="first_name" name="first_name">
+                    </div>
+                    <div class="form-field">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" id="last_name" name="last_name">
+                    </div>
+                    <div class="form-field">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="user_email">
+                    </div>
+                    <div class="form-field">
+                        <label for="phone_number">PHONE NUMBER</label>
+                        <input type="tel" id="phone_number" name="user_phone_number">
+                    </div>
+                    <div class="form-field">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password" minlength="8">
+                    </div>
+                    <div class="form-field">
+                        <label for="confirm_password">CONFIRM PASSWORD</label>
+                        <input type="password" id="password" name="confirm_password" minlength="8">
+                    </div>
+                </form>
+                </div>
 
 
             <div class="bottom-section">
