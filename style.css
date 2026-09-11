@@ -29,7 +29,6 @@ body {
 
 .main {
     display: flex;
-    border: 1px solid black;
     flex-grow: 1;
     background-color: rgb(242, 243, 241);
 }
@@ -121,10 +120,40 @@ input[type="password"]:user-invalid {
     flex: 1 1 auto;
     height: inherit;
     overflow: hidden;
+    position: relative;
 }
+
+.odin-div {
+    position: absolute;
+    width: 100%;
+    background: black;
+    opacity: 0.6;
+    color: white;
+    top: 500px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: roboto;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.odin-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Norse;
+    font-size: 100px;
+}
+
 
 .background-img {
     width: 800px;
+}
+
+.odin-img {
+    width: 100px;
 }
 
 button {
