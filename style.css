@@ -22,16 +22,12 @@
     box-sizing: border-box;
 }
 
-body {
-    height: 100vh;
-    width: 100vw; /* might not be necessary*/
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
 .main {
+    height: 100vh;
     display: flex;
     flex-grow: 1;
     background-color: rgb(242, 243, 241);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .right-section {
@@ -170,7 +166,7 @@ input[type="password"]:user-invalid {
 
 .pic-credit-text {
     position: absolute;
-    bottom: 10px;
+    top: 1160px;
     width: 100%;
     text-align: center;
     color: white;
