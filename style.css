@@ -181,13 +181,14 @@ button {
     font-family: Roboto;
     box-shadow: #596D48 3px 3px 3px 0;
     border-radius: 8px;
-    font-size: 14px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .bottom-section p {
     font-family: sans-serif;
     padding-left: 40px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 a {
