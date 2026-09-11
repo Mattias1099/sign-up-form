@@ -1,3 +1,36 @@
-p {
+@font-face {
+    font-family: 'Norse';
+    src: url('fonts/Norse-Bold.woff2') format('woff2'),
+        url('fonts/Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.woff2') format('woff2'),
+        url('fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.logo-text {
     color: red;
+    font-family: Norse;
+}
+
+.header-text {
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.form-text {
+    font-family: Roboto;
+}
+
+.odin-img {
+    background-color: black;
 }
